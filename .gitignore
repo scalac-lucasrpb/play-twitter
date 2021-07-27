@@ -4,6 +4,7 @@
 /.bsp
 /.metals
 /.bloop
+/.g8
 /.idea
 /.idea_modules
 /.classpath
