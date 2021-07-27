@@ -1,0 +1,53 @@
+[0m2021.07.27 11:22:41 INFO  Started: Metals version 0.10.5 in workspace 'D:\Users\lucas\scalac\demo' for client Visual Studio Code 1.58.2.[0m
+[0m2021.07.27 11:22:43 INFO  time: initialize in 1.54s[0m
+[0m2021.07.27 11:22:43 WARN  Build server is not auto-connectable.[0m
+[0m2021.07.27 11:22:46 INFO  running 'C:\Program Files\Java\jdk-17\bin\java -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar D:\Users\lucas\AppData\Local\Temp\metals235187665887644543\sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall'[0m
+[0m2021.07.27 11:22:47 INFO  sbt bloopInstall exit: 2[0m
+[0m2021.07.27 11:22:47 INFO  time: ran 'sbt bloopInstall' in 1.36s[0m
+[0m2021.07.27 11:22:47 ERROR sbt command failed: C:\Program Files\Java\jdk-17\bin\java -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar D:\Users\lucas\AppData\Local\Temp\metals235187665887644543\sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall[0m
+[0m2021.07.27 11:23:14 WARN  no build target for: D:\Users\lucas\scalac\demo\build.sbt[0m
+[0m2021.07.27 11:23:19 INFO  no build target: using presentation compiler with only scala-library: 2.12.14[0m
+Jul 27, 2021 11:23:19 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 9
+[0m2021.07.27 11:23:21 INFO  time: code lens generation in 6.06s[0m
+[0m2021.07.27 11:23:21 INFO  time: code lens generation in 6.93s[0m
+[0m2021.07.27 11:23:35 WARN  no build target for: D:\Users\lucas\scalac\demo\project\metals.sbt[0m
+[0m2021.07.27 11:23:37 WARN  no build target for: D:\Users\lucas\scalac\demo\project\metals.sbt[0m
+[0m2021.07.27 11:23:37 INFO  skipping build import with status 'Failed'[0m
+[0m2021.07.27 11:23:37 WARN  no build target for: D:\Users\lucas\scalac\demo\project\metals.sbt[0m
+[0m2021.07.27 11:23:37 INFO  skipping build import with status 'Failed'[0m
+[0m2021.07.27 11:23:38 WARN  no build target for: D:\Users\lucas\scalac\demo\project\metals.sbt[0m
+[0m2021.07.27 11:23:38 INFO  skipping build import with status 'Failed'[0m
+[0m2021.07.27 11:23:38 WARN  no build target for: D:\Users\lucas\scalac\demo\project\metals.sbt[0m
+[0m2021.07.27 11:23:38 INFO  skipping build import with status 'Failed'[0m
+Jul 27, 2021 11:23:39 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 19
+[0m2021.07.27 11:23:44 WARN  no build target for: D:\Users\lucas\scalac\demo\app\controllers\HomeController.scala[0m
+[0m2021.07.27 11:23:45 WARN  no build target for: D:\Users\lucas\scalac\demo\app\controllers\AccountController.scala[0m
+[0m2021.07.27 11:23:57 WARN  no build target for: D:\Users\lucas\scalac\demo\app\controllers\AccountController.scala[0m
+[0m2021.07.27 11:24:04 WARN  no build target for: D:\Users\lucas\scalac\demo\app\controllers\AccountController.scala[0m
+[0m2021.07.27 11:24:04 WARN  no build target for: D:\Users\lucas\scalac\demo\app\controllers\AccountController.scala[0m
+[0m2021.07.27 11:24:04 WARN  no build target for: D:\Users\lucas\scalac\demo\app\controllers\AccountController.scala[0m
+Jul 27, 2021 11:24:20 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+[0m2021.07.27 11:24:47 INFO  shutting down Metals[0m
+[0m2021.07.27 11:25:01 INFO  Started: Metals version 0.10.5 in workspace 'D:\Users\lucas\scalac\demo' for client Visual Studio Code 1.58.2.[0m
+[0m2021.07.27 11:25:02 INFO  time: initialize in 1.57s[0m
+[0m2021.07.27 11:25:02 WARN  Build server is not auto-connectable.[0m
+[0m2021.07.27 11:25:02 WARN  no build target for: D:\Users\lucas\scalac\demo\app\controllers\AccountController.scala[0m
+[0m2021.07.27 11:25:03 INFO  skipping build import with status 'Failed'[0m
+[0m2021.07.27 11:25:07 INFO  no build target: using presentation compiler with only scala-library: 2.12.14[0m
+Jul 27, 2021 11:25:07 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 4
+Jul 27, 2021 11:25:07 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 9
+[0m2021.07.27 11:25:09 INFO  time: code lens generation in 5.61s[0m
+[0m2021.07.27 11:25:23 WARN  no build target for: D:\Users\lucas\scalac\demo\app\controllers\AccountController.scala[0m
+[0m2021.07.27 11:25:31 WARN  no build target for: D:\Users\lucas\scalac\demo\app\controllers\AccountController.scala[0m
+[0m2021.07.27 11:25:56 WARN  no build target for: D:\Users\lucas\scalac\demo\app\controllers\AccountController.scala[0m
+[0m2021.07.27 11:26:01 WARN  no build target for: D:\Users\lucas\scalac\demo\app\controllers\AccountController.scala[0m
+[0m2021.07.27 11:26:02 WARN  no build target for: D:\Users\lucas\scalac\demo\app\controllers\AccountController.scala[0m
+[0m2021.07.27 11:26:05 WARN  no build target for: D:\Users\lucas\scalac\demo\app\controllers\AccountController.scala[0m
+[0m2021.07.27 11:26:16 WARN  no build target for: D:\Users\lucas\scalac\demo\app\controllers\AccountController.scala[0m
+[0m2021.07.27 11:26:19 WARN  no build target for: D:\Users\lucas\scalac\demo\app\controllers\AccountController.scala[0m
+[0m2021.07.27 11:26:21 INFO  shutting down Metals[0m
