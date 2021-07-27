@@ -1,6 +1,9 @@
-logs
-target
+/logs
+/target
+/null
 /.bsp
+/.metals
+/.bloop
 /.idea
 /.idea_modules
 /.classpath

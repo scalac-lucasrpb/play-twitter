@@ -9,12 +9,9 @@ import scala.concurrent.ExecutionContext
 import scala.concurrent.Future
 
 @Singleton
-class OAuth2Filter @Inject()(implicit val mat: Materializer, ec: ExecutionContext) extends Filter with Logging {
+class LoggingFilter @Inject() (implicit val mat: Materializer, ec: ExecutionContext) extends Filter with Logging {
   def apply(nextFilter: RequestHeader => Future[Result])(requestHeader: RequestHeader): Future[Result] = {
-
-    if(requestHeader.)    
-
-    /*val startTime = System.currentTimeMillis
+    val startTime = System.currentTimeMillis
 
     nextFilter(requestHeader).map { result =>
       val endTime     = System.currentTimeMillis
@@ -25,6 +22,6 @@ class OAuth2Filter @Inject()(implicit val mat: Materializer, ec: ExecutionContex
       )
 
       result.withHeaders("Request-Time" -> requestTime.toString)
-    }*/
+    }
   }
 }

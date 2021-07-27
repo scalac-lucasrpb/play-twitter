@@ -9,5 +9,8 @@ GET     /main/:name                      controllers.HomeController.main(name: S
 
 POST    /account                         controllers.AccountController.index()
 
++nocsrf
+POST    /account/signin                  controllers.AccountController.auth()
+
 # Map static resources from the /public folder to the /assets URL path
 GET     /assets/*file               controllers.Assets.versioned(path="/public", file: Asset)
