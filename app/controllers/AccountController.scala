@@ -5,7 +5,7 @@ import play.api.mvc._
 
 import javax.inject._
 import scala.concurrent.{ExecutionContext, Future}
-import models.UserData
+import models.{FollowRequestData, UserData}
 import models.UserData._
 import play.api.Logging
 import play.api.libs.json.{JsNumber, JsObject, JsString, Json}
@@ -29,7 +29,7 @@ class AccountController @Inject()(val controllerComponents: ControllerComponents
     val json = request.body.asJson
 
     if(json.isEmpty){
-       Future.successful(NotFound("User data not found!"))
+       Future.successful(BadRequest("User data not found!"))
     } else {
 
       val data = json.get.as[JsObject] ++ Json.obj("signup_tmp" -> JsNumber(System.currentTimeMillis()),
@@ -66,6 +66,26 @@ class AccountController @Inject()(val controllerComponents: ControllerComponents
           case None => Unauthorized("wrong password and username combination!")
           case Some(user) => Ok(Json.toJson(user))
         }
+      }
+    }
+  }
+
+  def follow() = Action.async { implicit request: Request[AnyContent] =>
+
+    val json = request.body.asJson
+
+    if(json.isEmpty){
+      Future.successful(BadRequest("Follow request data not found!"))
+    } else {
+
+      val data = json.get.as[JsObject] ++ Json.obj("tmp" -> JsNumber(System.currentTimeMillis()))
+
+      val follow = data.as[FollowRequestData]
+
+      logger.debug(s"\nFollowing request: ${follow}\n")
+
+      userRepo.follow(follow).map { ok =>
+        Ok(Json.toJson(ok))
       }
     }
   }
