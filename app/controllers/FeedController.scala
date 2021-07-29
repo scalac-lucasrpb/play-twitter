@@ -55,10 +55,10 @@ class FeedController @Inject()(val system: ActorSystem,
   def tweetsByUser(username: String) = Action.async { implicit request: Request[AnyContent] =>
 
     val query = request.queryString
-    val lastId = query.get("lastId")
+    val lastTmp = query.get("tmp")
     val limit = query.get("limit")
 
-    val tr = GetTweetsRequestData(username, if(lastId.isDefined) Some(lastId.get.head) else None,
+    val tr = GetTweetsRequestData(username, if(lastTmp.isDefined) lastTmp.get.head.toLong else 0L, None,
       if(limit.isDefined) limit.get.head.toInt else 100)
 
     logger.debug(s"\ntweets by user request: ${tr}\n")
@@ -78,10 +78,10 @@ class FeedController @Inject()(val system: ActorSystem,
     //val out = Source.single("Hello!").concat(Source.maybe)
     val users = TrieMap.empty[String, ActorRef]
 
-    var lastId = ""
+    var lastTmp = 0L
 
     def fetch(): Unit = {
-      feedRepo.getTweetsByUser(GetTweetsRequestData(username, Some(lastId), 10)).onComplete {
+      feedRepo.getTweetsByUser(GetTweetsRequestData(username, lastTmp, None, 10)).onComplete {
         case Success(tweets) =>
 
           tweets.foreach { t =>
@@ -91,7 +91,7 @@ class FeedController @Inject()(val system: ActorSystem,
           }
 
           if(!tweets.isEmpty){
-            lastId = tweets.last.id
+            lastTmp = tweets.last.tmp
           }
 
           system.scheduler.scheduleOnce(100 millis)(fetch)

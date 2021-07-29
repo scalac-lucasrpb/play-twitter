@@ -25,7 +25,7 @@ class FeedRepository @Inject()(protected val config: Configuration)(implicit val
     .build()
 
   protected val INSERT_TWEET = session.prepare("insert into tweets(username, tweet_id, body, tags, tmp) values (?,?,?,?,?);")
-  protected val GET_TWEETS = session.prepare("select * from tweets where username=? and tweet_id > ? order by tweet_id limit ?;")
+  protected val GET_TWEETS = session.prepare("select * from tweets where username=? and tmp > ? order by tmp desc limit ?;")
 
   def tweet(data: TweetData): Future[Boolean] = {
     session.executeAsync(INSERT_TWEET.bind()
@@ -40,7 +40,7 @@ class FeedRepository @Inject()(protected val config: Configuration)(implicit val
     var tweets = Seq.empty[TweetData]
     session.executeAsync(GET_TWEETS.bind()
     .setString(0, data.username)
-    .setString(1, if(data.lastId.isEmpty) "" else data.lastId.get)
+    .setLong(1, data.tmp)
     .setInt(2, data.limit)).toScala.flatMap { rs =>
 
       def next(rs: AsyncResultSet): Future[Seq[TweetData]] = {

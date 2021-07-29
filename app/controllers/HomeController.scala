@@ -20,8 +20,8 @@ class HomeController @Inject()(val controllerComponents: ControllerComponents) e
    * will be called when the application receives a `GET` request with
    * a path of `/`.
    */
-  def index(name: String) = Action.async { implicit request: Request[AnyContent] =>
-    Future.successful(Ok(s"Hello, ${name}!"))
+  def index() = Action { implicit request: Request[AnyContent] =>
+    Ok(views.html.index("Hello"))
   }
 
   def main(name: String) = Action { implicit request: Request[AnyContent] =>
