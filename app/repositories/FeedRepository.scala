@@ -4,8 +4,10 @@ import app.AppConfig
 import com.datastax.oss.driver.api.core.cql.AsyncResultSet
 import com.datastax.oss.driver.api.core.{CqlSession, DefaultConsistencyLevel}
 import models.{FollowRequestData, GetTweetsRequestData, TweetData, UserData}
+import org.slf4j.LoggerFactory
 import play.api.Configuration
 
+import java.nio.file.Paths
 import javax.inject.{Inject, Singleton}
 import scala.compat.java8.FutureConverters._
 import scala.collection.JavaConverters._
@@ -14,13 +16,20 @@ import scala.concurrent.{ExecutionContext, Future}
 @Singleton
 class FeedRepository @Inject()(protected val config: Configuration)(implicit val ec: ExecutionContext)  {
 
+  val logger = LoggerFactory.getLogger(this.getClass)
+
   val appConfig = config.get[AppConfig]("app.config")
+
+  val ENV_CLIENT_ID = System.getenv("CLIENT_ID")
+  val ENV_CLIENT_SECRET = System.getenv("CLIENT_SECRET")
+
+  val CLIENT_ID = if(ENV_CLIENT_ID != null) ENV_CLIENT_ID else appConfig.clientId
+  val CLIENT_SECRET = if(ENV_CLIENT_SECRET != null) ENV_CLIENT_SECRET else appConfig.clientSecret
 
   val session = CqlSession
     .builder()
-    //.addContactPoint(new InetSocketAddress(Config.CASSANDRA_HOST, Config.CASSANDRA_PORT))
-    //.withConfigLoader(loader)
-    //.withLocalDatacenter(Config.DC)
+    .withCloudSecureConnectBundle(Paths.get("secure-connect-scalac-twitter.zip"))
+    .withAuthCredentials("SZMZicndkCbDDJBhsKbUQFcy", "es_,2R.MLHxFR2xpFosf4.ahL5r5E_s2cZfurPfAx6iC,h648uoroJz9+nWyqIzOk+7OZSo4iNy+gDttz3oNbKSES45W.RsHz4tEyxNTsOIG.lWmrGE,0ixK+yUyL+qr")
     .withKeyspace(appConfig.keyspace)
     .build()
 

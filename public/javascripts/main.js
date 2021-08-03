@@ -13,7 +13,7 @@
     };
 
     async function connectToServer() {
-        const ws = new WebSocket('ws://localhost:8000/feed/stream/lucasrpb');
+        const ws = new WebSocket('wss://'+window.location.host+'/feed/stream/lucasrpb');
         return new Promise((resolve, reject) => {
             const timer = setInterval(() => {
                 if(ws.readyState === 1) {

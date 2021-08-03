@@ -1,3 +1,4 @@
+
 name := "demo"
 organization := "demo"
 
@@ -11,13 +12,26 @@ libraryDependencies += guice
 libraryDependencies += filters
 libraryDependencies += logback
 libraryDependencies += "org.scalatestplus.play" %% "scalatestplus-play" % "5.0.0" % Test
-libraryDependencies += "com.datastax.oss" % "java-driver-core-shaded" % "4.12.0"
+libraryDependencies += "com.datastax.oss" % "java-driver-core-shaded" % "4.9.0"
 libraryDependencies += "com.github.3tty0n" % "jwt-scala_2.12" % "1.3.0"
+
+//libraryDependencies += "com.eed3si9n" %% "sbt-assembly" % "1.0.0"
 
 dependencyOverrides += "com.google.inject" % "guice" % "5.0.1"
 dependencyOverrides += "com.typesafe.play" %% "twirl-api" % "1.5.1"
 
 PlayKeys.playDefaultPort := 8000
+PlayKeys.playDefaultAddress := "0.0.0.0"
+
+mainClass in assembly := Some("play.core.server.ProdServerStart")
+fullClasspath in assembly += Attributed.blank(PlayKeys.playPackageAssets.value)
+
+ThisBuild / assemblyMergeStrategy := {
+  case PathList("META-INF", xs @ _*) => MergeStrategy.discard
+  case _ => MergeStrategy.first
+}
+
+enablePlugins(PlayScala, LauncherJarPlugin)
 
 /*val java17Options = Seq(
   "-XX:+IgnoreUnrecognizedVMOptions",

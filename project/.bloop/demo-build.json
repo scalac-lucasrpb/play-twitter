@@ -19,6 +19,7 @@
             "D:\\Users\\lucas\\AppData\\Local\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scala-sbt\\sbt\\1.5.5\\sbt-1.5.5.jar",
             "D:\\Users\\lucas\\.sbt\\boot\\scala-2.12.14\\lib\\scala-library.jar",
             "D:\\Users\\lucas\\AppData\\Local\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\ch\\epfl\\scala\\sbt-bloop_2.12_1.0\\1.4.8-19-4d9f966b\\sbt-bloop-1.4.8-19-4d9f966b.jar",
+            "D:\\Users\\lucas\\AppData\\Local\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\com\\eed3si9n\\sbt-assembly_2.12_1.0\\1.0.0\\sbt-assembly-1.0.0.jar",
             "D:\\Users\\lucas\\AppData\\Local\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\com\\typesafe\\play\\sbt-plugin_2.12_1.0\\2.8.8\\sbt-plugin-2.8.8.jar",
             "D:\\Users\\lucas\\AppData\\Local\\Coursier\\cache\\v1\\https\\repo.scala-sbt.org\\scalasbt\\sbt-plugin-releases\\org.foundweekends.giter8\\sbt-giter8-scaffold\\scala_2.12\\sbt_1.0\\0.11.0\\jars\\sbt-giter8-scaffold.jar",
             "D:\\Users\\lucas\\AppData\\Local\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scala-sbt\\main_2.12\\1.5.5\\main_2.12-1.5.5.jar",
@@ -27,6 +28,8 @@
             "D:\\Users\\lucas\\AppData\\Local\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\net\\java\\dev\\jna\\jna-platform\\5.5.0\\jna-platform-5.5.0.jar",
             "D:\\Users\\lucas\\AppData\\Local\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\com\\google\\code\\gson\\gson\\2.7\\gson-2.7.jar",
             "D:\\Users\\lucas\\AppData\\Local\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\com\\google\\code\\findbugs\\jsr305\\3.0.2\\jsr305-3.0.2.jar",
+            "D:\\Users\\lucas\\AppData\\Local\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scalactic\\scalactic_2.12\\3.0.8\\scalactic_2.12-3.0.8.jar",
+            "D:\\Users\\lucas\\AppData\\Local\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\com\\eed3si9n\\jarjarabrams\\jarjar-abrams-core_2.12\\0.1.0\\jarjar-abrams-core_2.12-0.1.0.jar",
             "D:\\Users\\lucas\\AppData\\Local\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\com\\typesafe\\play\\sbt-routes-compiler_2.12\\2.8.8\\sbt-routes-compiler_2.12-2.8.8.jar",
             "D:\\Users\\lucas\\AppData\\Local\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\com\\typesafe\\play\\run-support_2.12\\2.8.8\\run-support_2.12-2.8.8.jar",
             "D:\\Users\\lucas\\AppData\\Local\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\com\\typesafe\\config\\1.4.1\\config-1.4.1.jar",
@@ -59,6 +62,8 @@
             "D:\\Users\\lucas\\AppData\\Local\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scala-sbt\\compiler-interface\\1.5.7\\compiler-interface-1.5.7.jar",
             "D:\\Users\\lucas\\AppData\\Local\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scala-sbt\\zinc-compile_2.12\\1.5.7\\zinc-compile_2.12-1.5.7.jar",
             "D:\\Users\\lucas\\AppData\\Local\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\com\\swoval\\file-tree-views\\2.1.6\\file-tree-views-2.1.6.jar",
+            "D:\\Users\\lucas\\.sbt\\boot\\scala-2.12.14\\lib\\scala-reflect.jar",
+            "D:\\Users\\lucas\\AppData\\Local\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\org\\pantsbuild\\jarjar\\1.7.2\\jarjar-1.7.2.jar",
             "D:\\Users\\lucas\\AppData\\Local\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\com\\typesafe\\play\\twirl-api_2.12\\1.5.1\\twirl-api_2.12-1.5.1.jar",
             "D:\\Users\\lucas\\AppData\\Local\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scala-lang\\modules\\scala-parser-combinators_2.12\\1.1.2\\scala-parser-combinators_2.12-1.1.2.jar",
             "D:\\Users\\lucas\\AppData\\Local\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\com\\typesafe\\play\\build-link\\2.8.8\\build-link-2.8.8.jar",
@@ -101,7 +106,6 @@
             "D:\\Users\\lucas\\AppData\\Local\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\org\\jline\\jline-terminal-jna\\3.19.0\\jline-terminal-jna-3.19.0.jar",
             "D:\\Users\\lucas\\AppData\\Local\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\org\\jline\\jline-terminal-jansi\\3.19.0\\jline-terminal-jansi-3.19.0.jar",
             "D:\\Users\\lucas\\AppData\\Local\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\com\\lmax\\disruptor\\3.4.2\\disruptor-3.4.2.jar",
-            "D:\\Users\\lucas\\.sbt\\boot\\scala-2.12.14\\lib\\scala-reflect.jar",
             "D:\\Users\\lucas\\AppData\\Local\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\org\\checkerframework\\checker-qual\\3.4.1\\checker-qual-3.4.1.jar",
             "D:\\Users\\lucas\\AppData\\Local\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\com\\google\\errorprone\\error_prone_annotations\\2.4.0\\error_prone_annotations-2.4.0.jar",
             "D:\\Users\\lucas\\AppData\\Local\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scala-lang\\modules\\scala-collection-compat_2.12\\2.4.2\\scala-collection-compat_2.12-2.4.2.jar",
@@ -110,6 +114,9 @@
             "D:\\Users\\lucas\\AppData\\Local\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\com\\eed3si9n\\gigahorse-okhttp_2.12\\0.5.0\\gigahorse-okhttp_2.12-0.5.0.jar",
             "D:\\Users\\lucas\\AppData\\Local\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\com\\squareup\\okhttp3\\okhttp-urlconnection\\3.7.0\\okhttp-urlconnection-3.7.0.jar",
             "D:\\Users\\lucas\\AppData\\Local\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scala-sbt\\ivy\\ivy\\2.3.0-sbt-fbc4f586aeeb1591710b14eb4f41b94880dcd745\\ivy-2.3.0-sbt-fbc4f586aeeb1591710b14eb4f41b94880dcd745.jar",
+            "D:\\Users\\lucas\\AppData\\Local\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\org\\ow2\\asm\\asm\\7.0\\asm-7.0.jar",
+            "D:\\Users\\lucas\\AppData\\Local\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\org\\ow2\\asm\\asm-commons\\7.0\\asm-commons-7.0.jar",
+            "D:\\Users\\lucas\\AppData\\Local\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\org\\apache\\maven\\maven-plugin-api\\3.3.9\\maven-plugin-api-3.3.9.jar",
             "D:\\Users\\lucas\\AppData\\Local\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\com\\typesafe\\play\\play-exceptions\\2.8.8\\play-exceptions-2.8.8.jar",
             "D:\\Users\\lucas\\AppData\\Local\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\com\\typesafe\\play\\twirl-parser_2.12\\1.5.1\\twirl-parser_2.12-1.5.1.jar",
             "D:\\Users\\lucas\\AppData\\Local\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\org\\apache\\ant\\ant-launcher\\1.10.5\\ant-launcher-1.10.5.jar",
@@ -135,7 +142,7 @@
             "D:\\Users\\lucas\\AppData\\Local\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\org\\eclipse\\jgit\\org.eclipse.jgit.lfs\\4.9.0.201710071750-r\\org.eclipse.jgit.lfs-4.9.0.201710071750-r.jar",
             "D:\\Users\\lucas\\AppData\\Local\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\org\\eclipse\\jgit\\org.eclipse.jgit.lfs.server\\4.9.0.201710071750-r\\org.eclipse.jgit.lfs.server-4.9.0.201710071750-r.jar",
             "D:\\Users\\lucas\\AppData\\Local\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\org\\codehaus\\plexus\\plexus-container-default\\1.0-alpha-9-stable-1\\plexus-container-default-1.0-alpha-9-stable-1.jar",
-            "D:\\Users\\lucas\\AppData\\Local\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\org\\codehaus\\plexus\\plexus-utils\\3.0.8\\plexus-utils-3.0.8.jar",
+            "D:\\Users\\lucas\\AppData\\Local\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\org\\codehaus\\plexus\\plexus-utils\\3.0.22\\plexus-utils-3.0.22.jar",
             "D:\\Users\\lucas\\AppData\\Local\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\org\\codehaus\\plexus\\plexus-io\\2.2\\plexus-io-2.2.jar",
             "D:\\Users\\lucas\\AppData\\Local\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\org\\jline\\jline-reader\\3.19.0\\jline-reader-3.19.0.jar",
             "D:\\Users\\lucas\\AppData\\Local\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\org\\jline\\jline-builtins\\3.19.0\\jline-builtins-3.19.0.jar",
@@ -153,10 +160,13 @@
             "D:\\Users\\lucas\\AppData\\Local\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\org\\fusesource\\jansi\\jansi\\2.1.0\\jansi-2.1.0.jar",
             "D:\\Users\\lucas\\AppData\\Local\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\com\\eed3si9n\\gigahorse-core_2.12\\0.5.0\\gigahorse-core_2.12-0.5.0.jar",
             "D:\\Users\\lucas\\AppData\\Local\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\com\\squareup\\okhttp3\\okhttp\\3.14.2\\okhttp-3.14.2.jar",
+            "D:\\Users\\lucas\\AppData\\Local\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\org\\ow2\\asm\\asm-tree\\7.0\\asm-tree-7.0.jar",
+            "D:\\Users\\lucas\\AppData\\Local\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\org\\ow2\\asm\\asm-analysis\\7.0\\asm-analysis-7.0.jar",
+            "D:\\Users\\lucas\\AppData\\Local\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\org\\apache\\maven\\maven-model\\3.3.9\\maven-model-3.3.9.jar",
+            "D:\\Users\\lucas\\AppData\\Local\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\org\\apache\\maven\\maven-artifact\\3.3.9\\maven-artifact-3.3.9.jar",
+            "D:\\Users\\lucas\\AppData\\Local\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\org\\eclipse\\sisu\\org.eclipse.sisu.plexus\\0.3.2\\org.eclipse.sisu.plexus-0.3.2.jar",
             "D:\\Users\\lucas\\AppData\\Local\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\io\\apigee\\trireme\\trireme-kernel\\0.9.4\\trireme-kernel-0.9.4.jar",
             "D:\\Users\\lucas\\AppData\\Local\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\org\\mozilla\\rhino\\1.7.10\\rhino-1.7.10.jar",
-            "D:\\Users\\lucas\\AppData\\Local\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\org\\ow2\\asm\\asm\\5.1\\asm-5.1.jar",
-            "D:\\Users\\lucas\\AppData\\Local\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\org\\ow2\\asm\\asm-commons\\5.1\\asm-commons-5.1.jar",
             "D:\\Users\\lucas\\AppData\\Local\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\org\\ow2\\asm\\asm-util\\5.1\\asm-util-5.1.jar",
             "D:\\Users\\lucas\\AppData\\Local\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\org\\antlr\\antlr-runtime\\3.5.2\\antlr-runtime-3.5.2.jar",
             "D:\\Users\\lucas\\AppData\\Local\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\org\\osgi\\org.osgi.core\\4.3.1\\org.osgi.core-4.3.1.jar",
@@ -171,8 +181,13 @@
             "D:\\Users\\lucas\\AppData\\Local\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\com\\typesafe\\ssl-config-core_2.12\\0.4.0\\ssl-config-core_2.12-0.4.0.jar",
             "D:\\Users\\lucas\\AppData\\Local\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\org\\reactivestreams\\reactive-streams\\1.0.2\\reactive-streams-1.0.2.jar",
             "D:\\Users\\lucas\\AppData\\Local\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\com\\squareup\\okio\\okio\\1.17.2\\okio-1.17.2.jar",
-            "D:\\Users\\lucas\\AppData\\Local\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\org\\ow2\\asm\\asm-tree\\5.1\\asm-tree-5.1.jar",
+            "D:\\Users\\lucas\\AppData\\Local\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\javax\\enterprise\\cdi-api\\1.0\\cdi-api-1.0.jar",
+            "D:\\Users\\lucas\\AppData\\Local\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\org\\eclipse\\sisu\\org.eclipse.sisu.inject\\0.3.2\\org.eclipse.sisu.inject-0.3.2.jar",
+            "D:\\Users\\lucas\\AppData\\Local\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\org\\codehaus\\plexus\\plexus-component-annotations\\1.5.5\\plexus-component-annotations-1.5.5.jar",
+            "D:\\Users\\lucas\\AppData\\Local\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\org\\codehaus\\plexus\\plexus-classworlds\\2.5.2\\plexus-classworlds-2.5.2.jar",
             "D:\\Users\\lucas\\AppData\\Local\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\org\\eclipse\\jetty\\jetty-server\\9.4.5.v20170502\\jetty-server-9.4.5.v20170502.jar",
+            "D:\\Users\\lucas\\AppData\\Local\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\javax\\annotation\\jsr250-api\\1.0\\jsr250-api-1.0.jar",
+            "D:\\Users\\lucas\\AppData\\Local\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\javax\\inject\\javax.inject\\1\\javax.inject-1.jar",
             "D:\\Users\\lucas\\AppData\\Local\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\javax\\servlet\\javax.servlet-api\\3.1.0\\javax.servlet-api-3.1.0.jar",
             "D:\\Users\\lucas\\AppData\\Local\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\org\\eclipse\\jetty\\jetty-http\\9.4.5.v20170502\\jetty-http-9.4.5.v20170502.jar",
             "D:\\Users\\lucas\\AppData\\Local\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\org\\eclipse\\jetty\\jetty-io\\9.4.5.v20170502\\jetty-io-9.4.5.v20170502.jar",
@@ -223,8 +238,8 @@
                 "import _root_.sbt._",
                 "import _root_.sbt.Keys._",
                 "import _root_.sbt.nio.Keys._",
-                "import _root_.sbt.ScriptedPlugin.autoImport._, _root_.sbt.plugins.JUnitXmlReportPlugin.autoImport._, _root_.sbt.plugins.MiniDependencyTreePlugin.autoImport._, _root_.bloop.integrations.sbt.BloopPlugin.autoImport._, _root_.play.sbt.Play.autoImport._, _root_.play.sbt.PlayService.autoImport._, _root_.play.sbt.routes.RoutesCompiler.autoImport._, _root_.giter8.ScaffoldPlugin.autoImport._, _root_.play.twirl.sbt.SbtTwirl.autoImport._, _root_.com.typesafe.sbt.SbtNativePackager.autoImport._, _root_.com.typesafe.sbt.packager.archetypes.JavaAppPackaging.autoImport._, _root_.com.typesafe.sbt.packager.archetypes.JavaServerAppPackaging.autoImport._, _root_.com.typesafe.sbt.packager.archetypes.jar.ClasspathJarPlugin.autoImport._, _root_.com.typesafe.sbt.packager.archetypes.jar.LauncherJarPlugin.autoImport._, _root_.com.typesafe.sbt.packager.archetypes.jlink.JlinkPlugin.autoImport._, _root_.com.typesafe.sbt.packager.archetypes.scripts.BashStartScriptPlugin.autoImport._, _root_.com.typesafe.sbt.packager.archetypes.scripts.BatStartScriptPlugin.autoImport._, _root_.com.typesafe.sbt.packager.archetypes.systemloader.SystemdPlugin.autoImport._, _root_.com.typesafe.sbt.packager.archetypes.systemloader.SystemloaderPlugin.autoImport._, _root_.com.typesafe.sbt.packager.debian.DebianPlugin.autoImport._, _root_.com.typesafe.sbt.packager.docker.DockerPlugin.autoImport._, _root_.com.typesafe.sbt.packager.graalvmnativeimage.GraalVMNativeImagePlugin.autoImport._, _root_.com.typesafe.sbt.packager.jdkpackager.JDKPackagerPlugin.autoImport._, _root_.com.typesafe.sbt.packager.linux.LinuxPlugin.autoImport._, _root_.com.typesafe.sbt.packager.rpm.RpmPlugin.autoImport._, _root_.com.typesafe.sbt.packager.universal.UniversalPlugin.autoImport._, _root_.com.typesafe.sbt.packager.windows.WindowsPlugin.autoImport._, _root_.com.lightbend.sbt.javaagent.JavaAgent.autoImport._, _root_.com.typesafe.sbt.web.SbtWeb.autoImport._, _root_.com.typesafe.sbt.jse.SbtJsEngine.autoImport._, _root_.com.typesafe.sbt.jse.SbtJsTask.autoImport._",
-                "import _root_.sbt.plugins.IvyPlugin, _root_.sbt.plugins.JvmPlugin, _root_.sbt.plugins.CorePlugin, _root_.sbt.ScriptedPlugin, _root_.sbt.plugins.SbtPlugin, _root_.sbt.plugins.SemanticdbPlugin, _root_.sbt.plugins.JUnitXmlReportPlugin, _root_.sbt.plugins.Giter8TemplatePlugin, _root_.sbt.plugins.MiniDependencyTreePlugin, _root_.bloop.integrations.sbt.BloopPlugin, _root_.play.sbt.Play, _root_.play.sbt.PlayAkkaHttp2Support, _root_.play.sbt.PlayAkkaHttpServer, _root_.play.sbt.PlayFilters, _root_.play.sbt.PlayJava, _root_.play.sbt.PlayLayoutPlugin, _root_.play.sbt.PlayLogback, _root_.play.sbt.PlayMinimalJava, _root_.play.sbt.PlayNettyServer, _root_.play.sbt.PlayScala, _root_.play.sbt.PlayService, _root_.play.sbt.PlayWeb, _root_.play.sbt.routes.RoutesCompiler, _root_.play.sbt.test.MediatorWorkaroundPlugin, _root_.giter8.ScaffoldPlugin, _root_.play.twirl.sbt.SbtTwirl, _root_.com.typesafe.sbt.SbtNativePackager, _root_.com.typesafe.sbt.packager.archetypes.JavaAppPackaging, _root_.com.typesafe.sbt.packager.archetypes.JavaServerAppPackaging, _root_.com.typesafe.sbt.packager.archetypes.jar.ClasspathJarPlugin, _root_.com.typesafe.sbt.packager.archetypes.jar.LauncherJarPlugin, _root_.com.typesafe.sbt.packager.archetypes.jlink.JlinkPlugin, _root_.com.typesafe.sbt.packager.archetypes.scripts.AshScriptPlugin, _root_.com.typesafe.sbt.packager.archetypes.scripts.BashStartScriptPlugin, _root_.com.typesafe.sbt.packager.archetypes.scripts.BatStartScriptPlugin, _root_.com.typesafe.sbt.packager.archetypes.systemloader.SystemVPlugin, _root_.com.typesafe.sbt.packager.archetypes.systemloader.SystemdPlugin, _root_.com.typesafe.sbt.packager.archetypes.systemloader.SystemloaderPlugin, _root_.com.typesafe.sbt.packager.archetypes.systemloader.UpstartPlugin, _root_.com.typesafe.sbt.packager.debian.DebianDeployPlugin, _root_.com.typesafe.sbt.packager.debian.DebianPlugin, _root_.com.typesafe.sbt.packager.debian.JDebPackaging, _root_.com.typesafe.sbt.packager.docker.DockerPlugin, _root_.com.typesafe.sbt.packager.docker.DockerSpotifyClientPlugin, _root_.com.typesafe.sbt.packager.graalvmnativeimage.GraalVMNativeImagePlugin, _root_.com.typesafe.sbt.packager.jdkpackager.JDKPackagerDeployPlugin, _root_.com.typesafe.sbt.packager.jdkpackager.JDKPackagerPlugin, _root_.com.typesafe.sbt.packager.linux.LinuxPlugin, _root_.com.typesafe.sbt.packager.rpm.RpmDeployPlugin, _root_.com.typesafe.sbt.packager.rpm.RpmPlugin, _root_.com.typesafe.sbt.packager.universal.UniversalDeployPlugin, _root_.com.typesafe.sbt.packager.universal.UniversalPlugin, _root_.com.typesafe.sbt.packager.windows.WindowsDeployPlugin, _root_.com.typesafe.sbt.packager.windows.WindowsPlugin, _root_.com.lightbend.sbt.javaagent.JavaAgent, _root_.com.lightbend.sbt.javaagent.JavaAgentPackaging, _root_.com.typesafe.sbt.web.SbtWeb, _root_.com.typesafe.sbt.jse.SbtJsEngine, _root_.com.typesafe.sbt.jse.SbtJsTask"
+                "import _root_.sbt.ScriptedPlugin.autoImport._, _root_.sbt.plugins.JUnitXmlReportPlugin.autoImport._, _root_.sbt.plugins.MiniDependencyTreePlugin.autoImport._, _root_.bloop.integrations.sbt.BloopPlugin.autoImport._, _root_.sbtassembly.AssemblyPlugin.autoImport._, _root_.play.sbt.Play.autoImport._, _root_.play.sbt.PlayService.autoImport._, _root_.play.sbt.routes.RoutesCompiler.autoImport._, _root_.giter8.ScaffoldPlugin.autoImport._, _root_.play.twirl.sbt.SbtTwirl.autoImport._, _root_.com.typesafe.sbt.SbtNativePackager.autoImport._, _root_.com.typesafe.sbt.packager.archetypes.JavaAppPackaging.autoImport._, _root_.com.typesafe.sbt.packager.archetypes.JavaServerAppPackaging.autoImport._, _root_.com.typesafe.sbt.packager.archetypes.jar.ClasspathJarPlugin.autoImport._, _root_.com.typesafe.sbt.packager.archetypes.jar.LauncherJarPlugin.autoImport._, _root_.com.typesafe.sbt.packager.archetypes.jlink.JlinkPlugin.autoImport._, _root_.com.typesafe.sbt.packager.archetypes.scripts.BashStartScriptPlugin.autoImport._, _root_.com.typesafe.sbt.packager.archetypes.scripts.BatStartScriptPlugin.autoImport._, _root_.com.typesafe.sbt.packager.archetypes.systemloader.SystemdPlugin.autoImport._, _root_.com.typesafe.sbt.packager.archetypes.systemloader.SystemloaderPlugin.autoImport._, _root_.com.typesafe.sbt.packager.debian.DebianPlugin.autoImport._, _root_.com.typesafe.sbt.packager.docker.DockerPlugin.autoImport._, _root_.com.typesafe.sbt.packager.graalvmnativeimage.GraalVMNativeImagePlugin.autoImport._, _root_.com.typesafe.sbt.packager.jdkpackager.JDKPackagerPlugin.autoImport._, _root_.com.typesafe.sbt.packager.linux.LinuxPlugin.autoImport._, _root_.com.typesafe.sbt.packager.rpm.RpmPlugin.autoImport._, _root_.com.typesafe.sbt.packager.universal.UniversalPlugin.autoImport._, _root_.com.typesafe.sbt.packager.windows.WindowsPlugin.autoImport._, _root_.com.lightbend.sbt.javaagent.JavaAgent.autoImport._, _root_.com.typesafe.sbt.web.SbtWeb.autoImport._, _root_.com.typesafe.sbt.jse.SbtJsEngine.autoImport._, _root_.com.typesafe.sbt.jse.SbtJsTask.autoImport._",
+                "import _root_.sbt.plugins.IvyPlugin, _root_.sbt.plugins.JvmPlugin, _root_.sbt.plugins.CorePlugin, _root_.sbt.ScriptedPlugin, _root_.sbt.plugins.SbtPlugin, _root_.sbt.plugins.SemanticdbPlugin, _root_.sbt.plugins.JUnitXmlReportPlugin, _root_.sbt.plugins.Giter8TemplatePlugin, _root_.sbt.plugins.MiniDependencyTreePlugin, _root_.bloop.integrations.sbt.BloopPlugin, _root_.sbtassembly.AssemblyPlugin, _root_.play.sbt.Play, _root_.play.sbt.PlayAkkaHttp2Support, _root_.play.sbt.PlayAkkaHttpServer, _root_.play.sbt.PlayFilters, _root_.play.sbt.PlayJava, _root_.play.sbt.PlayLayoutPlugin, _root_.play.sbt.PlayLogback, _root_.play.sbt.PlayMinimalJava, _root_.play.sbt.PlayNettyServer, _root_.play.sbt.PlayScala, _root_.play.sbt.PlayService, _root_.play.sbt.PlayWeb, _root_.play.sbt.routes.RoutesCompiler, _root_.play.sbt.test.MediatorWorkaroundPlugin, _root_.giter8.ScaffoldPlugin, _root_.play.twirl.sbt.SbtTwirl, _root_.com.typesafe.sbt.SbtNativePackager, _root_.com.typesafe.sbt.packager.archetypes.JavaAppPackaging, _root_.com.typesafe.sbt.packager.archetypes.JavaServerAppPackaging, _root_.com.typesafe.sbt.packager.archetypes.jar.ClasspathJarPlugin, _root_.com.typesafe.sbt.packager.archetypes.jar.LauncherJarPlugin, _root_.com.typesafe.sbt.packager.archetypes.jlink.JlinkPlugin, _root_.com.typesafe.sbt.packager.archetypes.scripts.AshScriptPlugin, _root_.com.typesafe.sbt.packager.archetypes.scripts.BashStartScriptPlugin, _root_.com.typesafe.sbt.packager.archetypes.scripts.BatStartScriptPlugin, _root_.com.typesafe.sbt.packager.archetypes.systemloader.SystemVPlugin, _root_.com.typesafe.sbt.packager.archetypes.systemloader.SystemdPlugin, _root_.com.typesafe.sbt.packager.archetypes.systemloader.SystemloaderPlugin, _root_.com.typesafe.sbt.packager.archetypes.systemloader.UpstartPlugin, _root_.com.typesafe.sbt.packager.debian.DebianDeployPlugin, _root_.com.typesafe.sbt.packager.debian.DebianPlugin, _root_.com.typesafe.sbt.packager.debian.JDebPackaging, _root_.com.typesafe.sbt.packager.docker.DockerPlugin, _root_.com.typesafe.sbt.packager.docker.DockerSpotifyClientPlugin, _root_.com.typesafe.sbt.packager.graalvmnativeimage.GraalVMNativeImagePlugin, _root_.com.typesafe.sbt.packager.jdkpackager.JDKPackagerDeployPlugin, _root_.com.typesafe.sbt.packager.jdkpackager.JDKPackagerPlugin, _root_.com.typesafe.sbt.packager.linux.LinuxPlugin, _root_.com.typesafe.sbt.packager.rpm.RpmDeployPlugin, _root_.com.typesafe.sbt.packager.rpm.RpmPlugin, _root_.com.typesafe.sbt.packager.universal.UniversalDeployPlugin, _root_.com.typesafe.sbt.packager.universal.UniversalPlugin, _root_.com.typesafe.sbt.packager.windows.WindowsDeployPlugin, _root_.com.typesafe.sbt.packager.windows.WindowsPlugin, _root_.com.lightbend.sbt.javaagent.JavaAgent, _root_.com.lightbend.sbt.javaagent.JavaAgentPackaging, _root_.com.typesafe.sbt.web.SbtWeb, _root_.com.typesafe.sbt.jse.SbtJsEngine, _root_.com.typesafe.sbt.jse.SbtJsTask"
             ]
         },
         "test": {
@@ -298,6 +313,18 @@
                     ]
                 },
                 {
+                    "organization": "com.eed3si9n",
+                    "name": "sbt-assembly",
+                    "version": "1.0.0",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "sbt-assembly",
+                            "path": "D:\\Users\\lucas\\AppData\\Local\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\com\\eed3si9n\\sbt-assembly_2.12_1.0\\1.0.0\\sbt-assembly-1.0.0.jar"
+                        }
+                    ]
+                },
+                {
                     "organization": "com.typesafe.play",
                     "name": "sbt-plugin",
                     "version": "2.8.8",
@@ -354,6 +381,30 @@
                         {
                             "name": "jsr305",
                             "path": "D:\\Users\\lucas\\AppData\\Local\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\com\\google\\code\\findbugs\\jsr305\\3.0.2\\jsr305-3.0.2.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.scalactic",
+                    "name": "scalactic_2.12",
+                    "version": "3.0.8",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "scalactic_2.12",
+                            "path": "D:\\Users\\lucas\\AppData\\Local\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scalactic\\scalactic_2.12\\3.0.8\\scalactic_2.12-3.0.8.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.eed3si9n.jarjarabrams",
+                    "name": "jarjar-abrams-core_2.12",
+                    "version": "0.1.0",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "jarjar-abrams-core_2.12",
+                            "path": "D:\\Users\\lucas\\AppData\\Local\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\com\\eed3si9n\\jarjarabrams\\jarjar-abrams-core_2.12\\0.1.0\\jarjar-abrams-core_2.12-0.1.0.jar"
                         }
                     ]
                 },
@@ -544,6 +595,30 @@
                         {
                             "name": "scala-library",
                             "path": "D:\\Users\\lucas\\.sbt\\boot\\scala-2.12.14\\lib\\scala-library.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.scala-lang",
+                    "name": "scala-reflect",
+                    "version": "2.12.14",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "scala-reflect",
+                            "path": "D:\\Users\\lucas\\.sbt\\boot\\scala-2.12.14\\lib\\scala-reflect.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.pantsbuild",
+                    "name": "jarjar",
+                    "version": "1.7.2",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "jarjar",
+                            "path": "D:\\Users\\lucas\\AppData\\Local\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\org\\pantsbuild\\jarjar\\1.7.2\\jarjar-1.7.2.jar"
                         }
                     ]
                 },
@@ -764,6 +839,42 @@
                     ]
                 },
                 {
+                    "organization": "org.ow2.asm",
+                    "name": "asm",
+                    "version": "7.0",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "asm",
+                            "path": "D:\\Users\\lucas\\AppData\\Local\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\org\\ow2\\asm\\asm\\7.0\\asm-7.0.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.ow2.asm",
+                    "name": "asm-commons",
+                    "version": "7.0",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "asm-commons",
+                            "path": "D:\\Users\\lucas\\AppData\\Local\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\org\\ow2\\asm\\asm-commons\\7.0\\asm-commons-7.0.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.apache.maven",
+                    "name": "maven-plugin-api",
+                    "version": "3.3.9",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "maven-plugin-api",
+                            "path": "D:\\Users\\lucas\\AppData\\Local\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\org\\apache\\maven\\maven-plugin-api\\3.3.9\\maven-plugin-api-3.3.9.jar"
+                        }
+                    ]
+                },
+                {
                     "organization": "com.typesafe.play",
                     "name": "play-exceptions",
                     "version": "2.8.8",
@@ -932,18 +1043,6 @@
                     ]
                 },
                 {
-                    "organization": "org.scala-lang",
-                    "name": "scala-reflect",
-                    "version": "2.12.14",
-                    "configurations": "default",
-                    "artifacts": [
-                        {
-                            "name": "scala-reflect",
-                            "path": "D:\\Users\\lucas\\.sbt\\boot\\scala-2.12.14\\lib\\scala-reflect.jar"
-                        }
-                    ]
-                },
-                {
                     "organization": "args4j",
                     "name": "args4j",
                     "version": "2.33",
@@ -1090,12 +1189,12 @@
                 {
                     "organization": "org.codehaus.plexus",
                     "name": "plexus-utils",
-                    "version": "3.0.8",
+                    "version": "3.0.22",
                     "configurations": "default",
                     "artifacts": [
                         {
                             "name": "plexus-utils",
-                            "path": "D:\\Users\\lucas\\AppData\\Local\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\org\\codehaus\\plexus\\plexus-utils\\3.0.8\\plexus-utils-3.0.8.jar"
+                            "path": "D:\\Users\\lucas\\AppData\\Local\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\org\\codehaus\\plexus\\plexus-utils\\3.0.22\\plexus-utils-3.0.22.jar"
                         }
                     ]
                 },
@@ -1108,6 +1207,66 @@
                         {
                             "name": "plexus-io",
                             "path": "D:\\Users\\lucas\\AppData\\Local\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\org\\codehaus\\plexus\\plexus-io\\2.2\\plexus-io-2.2.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.ow2.asm",
+                    "name": "asm-tree",
+                    "version": "7.0",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "asm-tree",
+                            "path": "D:\\Users\\lucas\\AppData\\Local\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\org\\ow2\\asm\\asm-tree\\7.0\\asm-tree-7.0.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.ow2.asm",
+                    "name": "asm-analysis",
+                    "version": "7.0",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "asm-analysis",
+                            "path": "D:\\Users\\lucas\\AppData\\Local\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\org\\ow2\\asm\\asm-analysis\\7.0\\asm-analysis-7.0.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.apache.maven",
+                    "name": "maven-model",
+                    "version": "3.3.9",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "maven-model",
+                            "path": "D:\\Users\\lucas\\AppData\\Local\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\org\\apache\\maven\\maven-model\\3.3.9\\maven-model-3.3.9.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.apache.maven",
+                    "name": "maven-artifact",
+                    "version": "3.3.9",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "maven-artifact",
+                            "path": "D:\\Users\\lucas\\AppData\\Local\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\org\\apache\\maven\\maven-artifact\\3.3.9\\maven-artifact-3.3.9.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.eclipse.sisu",
+                    "name": "org.eclipse.sisu.plexus",
+                    "version": "0.3.2",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "org.eclipse.sisu.plexus",
+                            "path": "D:\\Users\\lucas\\AppData\\Local\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\org\\eclipse\\sisu\\org.eclipse.sisu.plexus\\0.3.2\\org.eclipse.sisu.plexus-0.3.2.jar"
                         }
                     ]
                 },
@@ -1132,30 +1291,6 @@
                         {
                             "name": "rhino",
                             "path": "D:\\Users\\lucas\\AppData\\Local\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\org\\mozilla\\rhino\\1.7.10\\rhino-1.7.10.jar"
-                        }
-                    ]
-                },
-                {
-                    "organization": "org.ow2.asm",
-                    "name": "asm",
-                    "version": "5.1",
-                    "configurations": "default",
-                    "artifacts": [
-                        {
-                            "name": "asm",
-                            "path": "D:\\Users\\lucas\\AppData\\Local\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\org\\ow2\\asm\\asm\\5.1\\asm-5.1.jar"
-                        }
-                    ]
-                },
-                {
-                    "organization": "org.ow2.asm",
-                    "name": "asm-commons",
-                    "version": "5.1",
-                    "configurations": "default",
-                    "artifacts": [
-                        {
-                            "name": "asm-commons",
-                            "path": "D:\\Users\\lucas\\AppData\\Local\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\org\\ow2\\asm\\asm-commons\\5.1\\asm-commons-5.1.jar"
                         }
                     ]
                 },
@@ -1268,14 +1403,50 @@
                     ]
                 },
                 {
-                    "organization": "org.ow2.asm",
-                    "name": "asm-tree",
-                    "version": "5.1",
+                    "organization": "javax.enterprise",
+                    "name": "cdi-api",
+                    "version": "1.0",
                     "configurations": "default",
                     "artifacts": [
                         {
-                            "name": "asm-tree",
-                            "path": "D:\\Users\\lucas\\AppData\\Local\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\org\\ow2\\asm\\asm-tree\\5.1\\asm-tree-5.1.jar"
+                            "name": "cdi-api",
+                            "path": "D:\\Users\\lucas\\AppData\\Local\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\javax\\enterprise\\cdi-api\\1.0\\cdi-api-1.0.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.eclipse.sisu",
+                    "name": "org.eclipse.sisu.inject",
+                    "version": "0.3.2",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "org.eclipse.sisu.inject",
+                            "path": "D:\\Users\\lucas\\AppData\\Local\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\org\\eclipse\\sisu\\org.eclipse.sisu.inject\\0.3.2\\org.eclipse.sisu.inject-0.3.2.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.codehaus.plexus",
+                    "name": "plexus-component-annotations",
+                    "version": "1.5.5",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "plexus-component-annotations",
+                            "path": "D:\\Users\\lucas\\AppData\\Local\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\org\\codehaus\\plexus\\plexus-component-annotations\\1.5.5\\plexus-component-annotations-1.5.5.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.codehaus.plexus",
+                    "name": "plexus-classworlds",
+                    "version": "2.5.2",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "plexus-classworlds",
+                            "path": "D:\\Users\\lucas\\AppData\\Local\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\org\\codehaus\\plexus\\plexus-classworlds\\2.5.2\\plexus-classworlds-2.5.2.jar"
                         }
                     ]
                 },
@@ -1288,6 +1459,30 @@
                         {
                             "name": "jetty-server",
                             "path": "D:\\Users\\lucas\\AppData\\Local\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\org\\eclipse\\jetty\\jetty-server\\9.4.5.v20170502\\jetty-server-9.4.5.v20170502.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "javax.annotation",
+                    "name": "jsr250-api",
+                    "version": "1.0",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "jsr250-api",
+                            "path": "D:\\Users\\lucas\\AppData\\Local\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\javax\\annotation\\jsr250-api\\1.0\\jsr250-api-1.0.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "javax.inject",
+                    "name": "javax.inject",
+                    "version": "1",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "javax.inject",
+                            "path": "D:\\Users\\lucas\\AppData\\Local\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\javax\\inject\\javax.inject\\1\\javax.inject-1.jar"
                         }
                     ]
                 },

@@ -1,0 +1,29 @@
+2021-08-02 12:47:30 [34mINFO [0;39m [36mplay.api.http.EnabledFilters[0;39m [35m[0;39m Enabled Filters (see <https://www.playframework.com/documentation/latest/Filters>):
+
+    play.filters.csrf.CSRFFilter
+    filters.LoggingFilter
+
+2021-08-02 12:47:30 [34mINFO [0;39m [36mplay.api.Play[0;39m [35m[0;39m Application started (Dev) (no global state)
+2021-08-02 12:47:46 [39mDEBUG[0;39m [36mcontrollers.AssetsConfiguration[0;39m [35m[0;39m Using the following cache configuration for assets:
+	 enableCaching = false
+	 enableCacheControl = false
+	 defaultCacheControl = public, max-age=3600
+	 aggressiveCacheControl = public, max-age=31536000, immutable
+	 configuredCacheControl:
+
+
+2021-08-02 12:47:46 [39mDEBUG[0;39m [36mfilters.LoggingFilter[0;39m [35m[0;39m GET / took 66ms and returned 200
+2021-08-02 12:47:46 [39mDEBUG[0;39m [36mfilters.LoggingFilter[0;39m [35m[0;39m GET / took 100ms and returned 200
+2021-08-02 12:47:46 [39mDEBUG[0;39m [36mfilters.LoggingFilter[0;39m [35m[0;39m GET /assets/javascripts/main.js took 67ms and returned 304
+2021-08-02 12:47:46 [39mDEBUG[0;39m [36mfilters.LoggingFilter[0;39m [35m[0;39m GET /assets/javascripts/main.js took 68ms and returned 304
+2021-08-02 12:47:46 [39mDEBUG[0;39m [36mfilters.LoggingFilter[0;39m [35m[0;39m GET /favicon.ico took 22ms and returned 404
+2021-08-02 12:47:46 [39mDEBUG[0;39m [36mfilters.LoggingFilter[0;39m [35m[0;39m GET /favicon.ico took 24ms and returned 404
+2021-08-02 12:47:53 [39mDEBUG[0;39m [36mcontrollers.FeedController[0;39m [35m[0;39m 
+Tweet data: TweetData(lucasrpb,test3,Set(hello3),30829905-fb5a-4e6e-8f6b-1b4721e6f296,1627919273259)
+
+2021-08-02 12:47:53 [39mDEBUG[0;39m [36mfilters.LoggingFilter[0;39m [35m[0;39m POST /feed/tweet took 381ms and returned 200
+2021-08-02 12:47:53 [39mDEBUG[0;39m [36mfilters.LoggingFilter[0;39m [35m[0;39m POST /feed/tweet took 382ms and returned 200
+2021-08-02 12:48:18 [34mINFO [0;39m [36mplay.core.server.AkkaHttpServer[0;39m [35m[0;39m Stopping Akka HTTP server...
+2021-08-02 12:48:18 [34mINFO [0;39m [36mplay.core.server.AkkaHttpServer[0;39m [35m[0;39m Terminating server binding for /0:0:0:0:0:0:0:0:8000
+2021-08-02 12:48:18 [39mDEBUG[0;39m [36mcontrollers.AssetsMetadataProvider[0;39m [35m[0;39m Cleaning AssetsMetadata instance
+2021-08-02 12:48:18 [34mINFO [0;39m [36mplay.core.server.AkkaHttpServer[0;39m [35m[0;39m Running provided shutdown stop hooks
